@@ -1,8 +1,4 @@
-if(!file.exists("plot")){
-  dir.create("plot")
-}
-setwd("D:/BigData/RLWD/plot/")
-getwd()
+
 ## File Download Routine
 temp <- tempfile()
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
